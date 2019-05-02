@@ -1,0 +1,53 @@
+disabled_rules:
+- colon
+- comma
+- control_statement
+- trailing_whitespace
+opt_in_rules:
+  - empty_count
+  - unused_import
+  - anyobject_protocol
+  - closure_body_length
+  - closure_end_indentation
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - force_unwrapping
+  - let_var_whitespace
+  - overridden_super_call
+  - private_action
+  - private_outlet
+  - sorted_first_last
+  - trailing_closure
+  - vertical_whitespace_between_cases
+excluded:
+  - Carthage
+  - fastlane
+  - vendor
+force_cast: warning
+force_try:
+  severity: warning
+line_length: 140
+type_body_length:
+  - 300
+  - 400
+file_length:
+  warning: 500
+  error: 1200
+type_name:
+  min_length: 3
+  max_length:
+    warning: 40
+    error: 50
+  excluded: iPhone
+identifier_name:
+  min_length:
+    error: 3
+  excluded:
+    - rg
+    - id
+    - to
+    - at
+    - ID
+    - URL
+    - GlobalAPIKey
+reporter: "xcode"
