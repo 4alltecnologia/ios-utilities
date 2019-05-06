@@ -64,7 +64,7 @@ public extension String {
 }
 
 public extension String {
-    // Get number if string is brazilian currency or return nil
+    /// Get number if string is brazilian currency or return nil
     var brazilianCurrencyNumber: NSNumber? {
         let formatter = NumberFormatter.brazilianCurrencyFormatter
 
@@ -74,6 +74,7 @@ public extension String {
         return value
     }
 
+    /// Transform string in html format to NSAttributedString with the layout of html
     var htmlToAttributedString: NSAttributedString? {
         guard let data = data(using: .utf8) else { return NSAttributedString() }
         do {
@@ -82,5 +83,35 @@ public extension String {
         } catch {
             return NSAttributedString()
         }
+    }
+
+
+    /// Create a substring based on the range passed
+    ///
+    /// - Parameter range: range to create the substring
+    subscript (range: Range<Int>) -> String {
+        let startIndex = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let endIndex = self.index(self.startIndex, offsetBy: range.upperBound)
+        return String(self[startIndex..<endIndex])
+    }
+
+    subscript(range: CountableClosedRange<Int>) -> Substring {
+        return self[index(at: range.lowerBound)...index(at: range.upperBound)]
+    }
+
+    subscript(range: PartialRangeUpTo<Int>) -> Substring {
+        return self[..<index(at: range.upperBound)]
+    }
+
+    subscript(range: PartialRangeThrough<Int>) -> Substring {
+        return self[...index(at: range.upperBound)]
+    }
+
+    subscript(range: PartialRangeFrom<Int>) -> Substring {
+        return self[index(at: range.lowerBound)...]
+    }
+
+    internal func index(at offset: Int) -> String.Index {
+        return index(startIndex, offsetBy: offset)
     }
 }
