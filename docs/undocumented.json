@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 98,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 102,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 106,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 110,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/felipe.pereira/Documents/code/ios-utilities"
+}

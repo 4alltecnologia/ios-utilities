@@ -7,8 +7,25 @@
 //
 
 import XCTest
+@testable import UtilitiesCore
 
 class StringTests: XCTestCase {
+
+    func testStringIntegerSubscriptable() {
+        let hello = "Hello World"
+
+        let partialRangeFrom = hello[3...]
+        let PartialRangeTo = hello[..<7] // Hello W
+        let partialRangeThrough = hello[...7] // Hello Wo
+        let closedRange = hello[3...7] // lo Wo
+        let range = hello[3..<7]
+
+        XCTAssertEqual(partialRangeFrom, "lo World")
+        XCTAssertEqual(PartialRangeTo, "Hello W")
+        XCTAssertEqual(partialRangeThrough, "Hello Wo")
+        XCTAssertEqual(closedRange, "lo Wo")
+        XCTAssertEqual(range, "lo W")
+    }
 
     func testGetOnlyNumbersFromString() {
         let auxString = "Ba12nana"
