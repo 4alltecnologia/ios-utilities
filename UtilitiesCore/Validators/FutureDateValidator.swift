@@ -1,5 +1,5 @@
 //
-//  DateValidator.swift
+//  FutureDateValidator.swift
 //  UtilitiesCore
 //
 //  Created by Felipe Dias Pereira on 24/04/19.

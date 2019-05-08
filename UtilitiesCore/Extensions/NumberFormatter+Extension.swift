@@ -10,7 +10,7 @@ import Foundation
 
 public extension NumberFormatter {
 
-    /// Use this variable to get double value from decimal
+    /// Returns a currency formatter with brazillian settings
     static let brazilianCurrencyFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currencyAccounting

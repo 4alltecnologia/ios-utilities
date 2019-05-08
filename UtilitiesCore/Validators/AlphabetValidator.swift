@@ -1,5 +1,5 @@
 //
-//  BrazilianAlphabet.swift
+//  AlphabetValidator.swift
 //  UtilitiesCore
 //
 //  Created by Felipe Dias Pereira on 13/03/2019.
