@@ -18,6 +18,23 @@
 		C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */; };
 		C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */; };
 		C92250D0227B683500ABFB38 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250CF227B683500ABFB38 /* StringTests.swift */; };
+		C9835CD42281B8A800DB672B /* ValidAgeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CCB2281B8A700DB672B /* ValidAgeValidator.swift */; };
+		C9835CD82281B8A800DB672B /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CCF2281B8A800DB672B /* Validator.swift */; };
+		C9835CDC2281BECD00DB672B /* RequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CDB2281BECD00DB672B /* RequiredFieldValidator.swift */; };
+		C9835CEC2281F01200DB672B /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CCE2281B8A700DB672B /* EmailValidator.swift */; };
+		C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CC92281B8A700DB672B /* PasswordValidator.swift */; };
+		C9835CEE2282030600DB672B /* FutureDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CD12281B8A800DB672B /* FutureDateValidator.swift */; };
+		C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */; };
+		C9835CF12282065B00DB672B /* CustomValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CF02282065B00DB672B /* CustomValidator.swift */; };
+		C9835CF422821B8500DB672B /* EmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CF322821B8500DB672B /* EmailValidatorTests.swift */; };
+		C9835CF622821FE300DB672B /* RequiredFieldValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CF522821FE300DB672B /* RequiredFieldValidatorTests.swift */; };
+		C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CF7228220B300DB672B /* ValidAgeValidatorTests.swift */; };
+		C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CF92283135200DB672B /* PasswordValidatorTests.swift */; };
+		C9835CFC228314E200DB672B /* AlphabetValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */; };
+		C9835CFE2283177100DB672B /* FutureDateValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */; };
+		C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */; };
+		C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D01228320FF00DB672B /* UITextField+Extension.swift */; };
+		C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D0322833FBD00DB672B /* UITextFieldTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,23 @@
 		C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTests.swift; sourceTree = "<group>"; };
 		C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterTests.swift; sourceTree = "<group>"; };
 		C92250CF227B683500ABFB38 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		C9835CC92281B8A700DB672B /* PasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		C9835CCB2281B8A700DB672B /* ValidAgeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAgeValidator.swift; sourceTree = "<group>"; };
+		C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetValidator.swift; sourceTree = "<group>"; };
+		C9835CCE2281B8A700DB672B /* EmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		C9835CCF2281B8A800DB672B /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C9835CD12281B8A800DB672B /* FutureDateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutureDateValidator.swift; sourceTree = "<group>"; };
+		C9835CDB2281BECD00DB672B /* RequiredFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidator.swift; sourceTree = "<group>"; };
+		C9835CF02282065B00DB672B /* CustomValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValidator.swift; sourceTree = "<group>"; };
+		C9835CF322821B8500DB672B /* EmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CF522821FE300DB672B /* RequiredFieldValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CF7228220B300DB672B /* ValidAgeValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAgeValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CF92283135200DB672B /* PasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDateValidatorTests.swift; sourceTree = "<group>"; };
+		C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValidatorTests.swift; sourceTree = "<group>"; };
+		C9835D01228320FF00DB672B /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C9835D0322833FBD00DB672B /* UITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +121,7 @@
 		C922509B227B4D8400ABFB38 /* UtilitiesCore */ = {
 			isa = PBXGroup;
 			children = (
+				C9835CC82281B89500DB672B /* Validators */,
 				C92250B5227B527700ABFB38 /* Extensions */,
 				C922509C227B4D8400ABFB38 /* UtilitiesCore.h */,
 				C922509D227B4D8400ABFB38 /* Info.plist */,
@@ -97,6 +132,7 @@
 		C92250A6227B4D8400ABFB38 /* UtilitiesCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				C9835CF222821AAF00DB672B /* Validators */,
 				C92250C8227B57E000ABFB38 /* Extensions */,
 				C92250A9227B4D8400ABFB38 /* Info.plist */,
 			);
@@ -111,6 +147,7 @@
 				C92250B8227B527700ABFB38 /* String+Extension.swift */,
 				C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */,
 				C92250BA227B527700ABFB38 /* Colletion+Extension.swift */,
+				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -122,8 +159,38 @@
 				C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */,
 				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
 				C92250CF227B683500ABFB38 /* StringTests.swift */,
+				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C9835CC82281B89500DB672B /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				C9835CCF2281B8A800DB672B /* Validator.swift */,
+				C9835CDB2281BECD00DB672B /* RequiredFieldValidator.swift */,
+				C9835CCE2281B8A700DB672B /* EmailValidator.swift */,
+				C9835CCB2281B8A700DB672B /* ValidAgeValidator.swift */,
+				C9835CC92281B8A700DB672B /* PasswordValidator.swift */,
+				C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */,
+				C9835CD12281B8A800DB672B /* FutureDateValidator.swift */,
+				C9835CF02282065B00DB672B /* CustomValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		C9835CF222821AAF00DB672B /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				C9835CF522821FE300DB672B /* RequiredFieldValidatorTests.swift */,
+				C9835CF322821B8500DB672B /* EmailValidatorTests.swift */,
+				C9835CF7228220B300DB672B /* ValidAgeValidatorTests.swift */,
+				C9835CF92283135200DB672B /* PasswordValidatorTests.swift */,
+				C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */,
+				C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */,
+				C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */,
+			);
+			path = Validators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +302,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9835CDC2281BECD00DB672B /* RequiredFieldValidator.swift in Sources */,
+				C9835CD42281B8A800DB672B /* ValidAgeValidator.swift in Sources */,
+				C9835CEC2281F01200DB672B /* EmailValidator.swift in Sources */,
 				C92250C3227B527800ABFB38 /* DateFormatter+Extension.swift in Sources */,
 				C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */,
+				C9835CD82281B8A800DB672B /* Validator.swift in Sources */,
+				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
+				C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */,
+				C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */,
 				C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */,
+				C9835CEE2282030600DB672B /* FutureDateValidator.swift in Sources */,
 				C92250C1227B527800ABFB38 /* NumberFormatter+Extension.swift in Sources */,
+				C9835CF12282065B00DB672B /* CustomValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9835CFC228314E200DB672B /* AlphabetValidatorTests.swift in Sources */,
+				C9835CF422821B8500DB672B /* EmailValidatorTests.swift in Sources */,
 				C92250D0227B683500ABFB38 /* StringTests.swift in Sources */,
+				C9835CFE2283177100DB672B /* FutureDateValidatorTests.swift in Sources */,
+				C9835CF622821FE300DB672B /* RequiredFieldValidatorTests.swift in Sources */,
+				C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */,
+				C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */,
+				C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */,
+				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,
 				C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */,
 				C92250CA227B57FB00ABFB38 /* CollectionTests.swift in Sources */,
