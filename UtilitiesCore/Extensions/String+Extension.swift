@@ -1,6 +1,6 @@
 //
 //  String.swift
-//  Elo
+//  UtilitiesCore
 //
 //  Created by Gabriel Miranda Silveira on 16/11/18.
 //  Copyright © 2018 4all. All rights reserved.

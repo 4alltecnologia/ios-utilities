@@ -1,6 +1,6 @@
 //
 //  NumberFormatter+extension.swift
-//  Elo
+//  UtilitiesCore
 //
 //  Created by Felipe Dias Pereira on 2019-04-19.
 //  Copyright © 2019 4all. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Decimal.swift
-//  Elo
+//  UtilitiesCore
 //
 //  Created by Felipe Dias Pereira on 28/11/2018.
 //  Copyright © 2018 4all. All rights reserved.
