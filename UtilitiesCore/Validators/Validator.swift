@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Validator.swift
 //  UtilitiesCore
 //
 //  Created by Felipe Dias Pereira on 12/02/2019.

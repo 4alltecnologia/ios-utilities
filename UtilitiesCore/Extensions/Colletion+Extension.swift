@@ -15,7 +15,7 @@ public extension Collection {
     ///
     /// - Parameter index: Index of object
     /// - Returns: Element at index or nil
-    func get(at index: Index) -> Iterator.Element? {
+    func get(at index: Index) -> Element? {
         return self.indices.contains(index) ? self[index] : nil
     }
 }
