@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CommonCrypto
 
 public extension String {
     /// Returns a String removing all whitespaces, not only the leading/trailing but also in the middle of the string
