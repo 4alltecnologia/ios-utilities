@@ -1,376 +1,376 @@
 {
   "warnings": [
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
-      "line": 98,
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 128,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
-      "line": 102,
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 132,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
-      "line": 106,
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 136,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
-      "line": 110,
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Extensions/String+Extension.swift",
+      "line": 140,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
       "line": null,
       "symbol": "AlphabetValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
       "line": 11,
       "symbol": "AlphabetValidatorErrors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
       "line": 12,
       "symbol": "AlphabetValidatorErrors.invalidAlphabetCharacter",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
       "line": 15,
       "symbol": "AlphabetValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/AlphabetValidator.swift",
       "line": 18,
       "symbol": "AlphabetValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
       "line": null,
       "symbol": "CustomValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
       "line": 11,
       "symbol": "CustomValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/CustomValidator.swift",
       "line": 20,
       "symbol": "CustomValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
       "line": null,
       "symbol": "EmailValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
       "line": 11,
       "symbol": "EmailValidatorErrors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
       "line": 12,
       "symbol": "EmailValidatorErrors.invalidEmailFormatt",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
       "line": 15,
       "symbol": "EmailValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/EmailValidator.swift",
       "line": 18,
       "symbol": "EmailValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": null,
       "symbol": "FutureDateValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": 11,
       "symbol": "FutureDateValidatorErrors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": 12,
       "symbol": "FutureDateValidatorErrors.datePastThanToday",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": 12,
       "symbol": "FutureDateValidatorErrors.invalidDate",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": 15,
       "symbol": "FutureDateValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/FutureDateValidator.swift",
       "line": 24,
       "symbol": "FutureDateValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
       "line": null,
       "symbol": "PasswordValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
       "line": 11,
       "symbol": "PasswordValidatorErrors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
       "line": 12,
       "symbol": "PasswordValidatorErrors.invalidPassword",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
       "line": 15,
       "symbol": "PasswordValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/PasswordValidator.swift",
       "line": 24,
       "symbol": "PasswordValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
       "line": 11,
       "symbol": "RequiredFieldError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
       "line": 12,
       "symbol": "RequiredFieldError.fieldRequiredWith(name:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
       "line": 13,
       "symbol": "RequiredFieldError.fieldRequired",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
       "line": 18,
       "symbol": "RequiredFieldValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/RequiredFieldValidator.swift",
       "line": 25,
       "symbol": "RequiredFieldValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": null,
       "symbol": "ValidAgeValidator",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 11,
       "symbol": "ValidAgeValidatorErrors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 12,
       "symbol": "ValidAgeValidatorErrors.ageBiggerThan140Years",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 12,
       "symbol": "ValidAgeValidatorErrors.ageShouldBeBiggerThan0",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 12,
       "symbol": "ValidAgeValidatorErrors.invalidDateFormatt",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 15,
       "symbol": "ValidAgeValidator",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/ValidAgeValidator.swift",
       "line": 25,
       "symbol": "ValidAgeValidator.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 11,
       "symbol": "ValidationFunction",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 13,
       "symbol": "ValidatorConvertible",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 14,
       "symbol": "ValidatorConvertible.validated(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 17,
       "symbol": "ValidatorType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 18,
       "symbol": "ValidatorType.requiredField(field:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 19,
       "symbol": "ValidatorType.email",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 20,
       "symbol": "ValidatorType.validAge(dateFormatter:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 21,
       "symbol": "ValidatorType.password",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 22,
       "symbol": "ValidatorType.futureDate(dateFormatter:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 23,
       "symbol": "ValidatorType.alphabet",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 24,
       "symbol": "ValidatorType.custom(validation:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 27,
       "symbol": "ValidatorFactory",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/felipe.pereira/Documents/code/ios-utilities/UtilitiesCore/Validators/Validator.swift",
+      "file": "/Users/raphael.braun/Developer/ios-utilities/UtilitiesCore/Validators/Validator.swift",
       "line": 41,
       "symbol": "ValidatorsConstants",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/felipe.pereira/Documents/code/ios-utilities"
+  "source_directory": "/Users/raphael.braun/Developer/ios-utilities"
 }

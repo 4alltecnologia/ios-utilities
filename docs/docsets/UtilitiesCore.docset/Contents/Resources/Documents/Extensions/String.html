@@ -14,7 +14,7 @@
     <a title="String Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">UtilitiesCore Docs</a> (24% documented)</p>
+        <p><a href="../index.html">UtilitiesCore Docs</a> (30% documented)</p>
         <p class="header-right"><a href="https://github.com/4alltecnologia"><img src="../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -123,7 +123,7 @@
             <a href="../Typealiases.html">Type Aliases</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/ValidationFunction">ValidationFunction</a>
+                <a href="../Typealiases.html#/s:13UtilitiesCore18ValidationFunctiona">ValidationFunction</a>
               </li>
             </ul>
           </li>
@@ -147,9 +147,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SS13UtilitiesCoreE27stringByRemovingWhitespacesSSvp"></a>
-                    <a name="//apple_ref/swift/Property/stringByRemovingWhitespaces" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SS13UtilitiesCoreE27stringByRemovingWhitespacesSSvp">stringByRemovingWhitespaces</a>
+                    <a name="/s:SS13UtilitiesCoreE19removingWhitespacesSSvp"></a>
+                    <a name="//apple_ref/swift/Property/removingWhitespaces" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE19removingWhitespacesSSvp">removingWhitespaces</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -157,19 +157,49 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A new String removing all white spaces, not only in the begin/ending but also in the middle of the string.</p>
+                        <p>Returns a String removing all whitespaces, not only the leading/trailing but also in the middle of the string</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">stringByRemovingWhitespaces</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">removingWhitespaces</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L15-L18">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L13-L15">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE30trimmingWhitespacesAndNewLinesSSvp"></a>
+                    <a name="//apple_ref/swift/Property/trimmingWhitespacesAndNewLines" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE30trimmingWhitespacesAndNewLinesSSvp">trimmingWhitespacesAndNewLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a String removing the leading/trailing whitespaces and new lines</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">trimmingWhitespacesAndNewLines</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L18-L20">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -234,7 +264,7 @@
                         <p>String with the new format or nil if fail</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L26-L37">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L28-L39">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -256,7 +286,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A String containing only numbers or empty</p>
+                        <p>Returns a String containing only numbers or an empty String</p>
 
                       </div>
                       <div class="declaration">
@@ -268,7 +298,37 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L42-L44">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L44-L46">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE10hasNumbersSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasNumbers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE10hasNumbersSbvp">hasNumbers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify if the string has one or more numbers</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hasNumbers</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L49-L51">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -286,7 +346,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Verify if the string has a number in the characters</p>
+                        <p>Verify if the string has only numbers</p>
 
                       </div>
                       <div class="declaration">
@@ -298,7 +358,127 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L47-L49">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L54-L56">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE11lettersOnlySSvp"></a>
+                    <a name="//apple_ref/swift/Property/lettersOnly" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE11lettersOnlySSvp">lettersOnly</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a String containing only letters or an empty String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lettersOnly</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L59-L61">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE10hasLettersSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasLetters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE10hasLettersSbvp">hasLetters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify if the string has one or more letters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hasLetters</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L64-L66">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE14hasOnlyLettersSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasOnlyLetters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE14hasOnlyLettersSbvp">hasOnlyLetters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify if the string has only letters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hasOnlyLetters</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L69-L71">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS13UtilitiesCoreE14isAlphaNumericSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isAlphaNumeric" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS13UtilitiesCoreE14isAlphaNumericSbvp">isAlphaNumeric</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify if the string contains at least one letter and one number</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isAlphaNumeric</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L74-L79">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -332,7 +512,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L54-L63">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L84-L93">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -366,7 +546,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L68-L75">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L98-L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -396,7 +576,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L78-L86">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L108-L116">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -445,7 +625,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L92-L96">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L122-L126">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -475,7 +655,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L98-L100">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L128-L130">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -505,7 +685,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L102-L104">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L132-L134">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -535,7 +715,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L106-L108">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L136-L138">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -565,7 +745,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L110-L112">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Extensions/String+Extension.swift#L140-L142">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -575,7 +755,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://4all.com/" target="_blank" rel="external">4All</a>. All rights reserved. (Last updated: 2019-05-08)</p>
+          <p>&copy; 2019 <a class="link" href="https://4all.com/" target="_blank" rel="external">4All</a>. All rights reserved. (Last updated: 2019-05-10)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
