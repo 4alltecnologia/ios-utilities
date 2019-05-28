@@ -35,6 +35,8 @@
 		C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */; };
 		C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D01228320FF00DB672B /* UITextField+Extension.swift */; };
 		C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D0322833FBD00DB672B /* UITextFieldTests.swift */; };
+		C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */; };
+		C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5C229D920800939BFB /* EncodableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValidatorTests.swift; sourceTree = "<group>"; };
 		C9835D01228320FF00DB672B /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		C9835D0322833FBD00DB672B /* UITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldTests.swift; sourceTree = "<group>"; };
+		C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		C9ED4A5C229D920800939BFB /* EncodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 				C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */,
 				C92250BA227B527700ABFB38 /* Colletion+Extension.swift */,
 				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
+				C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
 				C92250CF227B683500ABFB38 /* StringTests.swift */,
 				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
+				C9ED4A5C229D920800939BFB /* EncodableTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				C9835CD82281B8A800DB672B /* Validator.swift in Sources */,
 				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
+				C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */,
 				C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */,
 				C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */,
 				C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */,
@@ -331,6 +338,7 @@
 				C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */,
 				C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */,
 				C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */,
+				C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */,
 				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,
 				C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */,
