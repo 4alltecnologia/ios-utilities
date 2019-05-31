@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99CD950122A19BC00028E03C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD950022A19BC00028E03C /* UILabel+Extension.swift */; };
 		C92250A3227B4D8400ABFB38 /* UtilitiesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */; };
 		C92250AA227B4D8400ABFB38 /* UtilitiesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C922509C227B4D8400ABFB38 /* UtilitiesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B6227B527700ABFB38 /* Decimal+Extension.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99CD950022A19BC00028E03C /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilitiesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922509C227B4D8400ABFB38 /* UtilitiesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesCore.h; sourceTree = "<group>"; };
 		C922509D227B4D8400ABFB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */,
 				C92250BA227B527700ABFB38 /* Colletion+Extension.swift */,
 				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
+				99CD950022A19BC00028E03C /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			files = (
 				C9835CDC2281BECD00DB672B /* RequiredFieldValidator.swift in Sources */,
 				C9835CD42281B8A800DB672B /* ValidAgeValidator.swift in Sources */,
+				99CD950122A19BC00028E03C /* UILabel+Extension.swift in Sources */,
 				C9835CEC2281F01200DB672B /* EmailValidator.swift in Sources */,
 				C92250C3227B527800ABFB38 /* DateFormatter+Extension.swift in Sources */,
 				C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */,
