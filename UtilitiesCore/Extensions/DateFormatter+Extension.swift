@@ -17,3 +17,24 @@ public extension DateFormatter {
         return formatter
     }()
 }
+
+extension ISO8601DateFormatter {
+    convenience init(_ formatOptions: Options, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) {
+        self.init()
+        self.formatOptions = formatOptions
+        self.timeZone = timeZone
+    }
+}
+
+extension Formatter {
+    static let iso8601: ISO8601DateFormatter = {
+        let formatter = ISO8601DateFormatter()
+        if #available(iOS 11.0, *) {
+            formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        } else {
+            formatter.formatOptions = [.withInternetDateTime]
+        }
+        return formatter
+    }()
+    static let iso8601noFS = ISO8601DateFormatter()
+}
