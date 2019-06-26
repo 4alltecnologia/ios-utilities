@@ -11,12 +11,12 @@ import Foundation
 public extension NumberFormatter {
 
     /// Use this variable to get double value from decimal
-    static let brazilianCurrencyFormatter: NumberFormatter = {
+    static var brazilianCurrencyFormatter: NumberFormatter {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currencyAccounting
         formatter.locale = Locale(identifier: "pt_BR")
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
         return formatter
-    }()
+    }
 }
