@@ -51,15 +51,15 @@ public extension String {
 
 public extension String {
     /// Dictionary from string JSON format
-    var toDictionary: [String: Any]? {
+    var toDictionary: [String: Any] {
         if let data = data(using: .utf8) {
             do {
-                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] ?? [:]
             } catch {
-                return nil
+                return [:]
             }
         }
-        return nil
+        return [:]
     }
 }
 
@@ -84,7 +84,6 @@ public extension String {
             return NSAttributedString()
         }
     }
-
 
     /// Create a substring based on the range passed
     ///

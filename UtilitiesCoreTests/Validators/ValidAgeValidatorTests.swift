@@ -18,7 +18,6 @@ class ValidAgeValidatorTests: XCTestCase {
         ageValidator = ValidatorFactory.validatorFor(type: .validAge(dateFormatter: dateFormatter))
     }
 
-
     func testShouldNotAccepEmptyDates() {
         let validationResult = ageValidator.validated("")
 

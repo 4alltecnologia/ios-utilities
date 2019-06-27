@@ -19,6 +19,7 @@ public extension DateFormatter {
 }
 
 extension ISO8601DateFormatter {
+    //swiftlint:disable force_unwrapping
     convenience init(_ formatOptions: Options, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) {
         self.init()
         self.formatOptions = formatOptions

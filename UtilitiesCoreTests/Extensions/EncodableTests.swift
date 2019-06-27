@@ -21,6 +21,7 @@ class EncodableTests: XCTestCase {
             var createdAt: Date
         }
 
+        //swiftlint:disable force_unwrapping
         let object = TestObject(name: "Felipe", createdAt: date!)
 
         // When

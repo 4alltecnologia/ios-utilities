@@ -23,6 +23,8 @@ excluded:
   - Carthage
   - fastlane
   - vendor
+nesting:
+  type_level: 3
 force_cast: warning
 force_try:
   severity: warning
