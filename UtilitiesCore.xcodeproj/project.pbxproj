@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0259946822C52F7F0017850B /* CpfValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946722C52F7F0017850B /* CpfValidator.swift */; };
 		0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946922C531400017850B /* CpfValidatorTests.swift */; };
+		0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946B22C53A0A0017850B /* CnpjValidator.swift */; };
+		0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */; };
 		C92250A3227B4D8400ABFB38 /* UtilitiesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */; };
 		C92250AA227B4D8400ABFB38 /* UtilitiesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C922509C227B4D8400ABFB38 /* UtilitiesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B6227B527700ABFB38 /* Decimal+Extension.swift */; };
@@ -54,6 +56,8 @@
 /* Begin PBXFileReference section */
 		0259946722C52F7F0017850B /* CpfValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidator.swift; sourceTree = "<group>"; };
 		0259946922C531400017850B /* CpfValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidatorTests.swift; sourceTree = "<group>"; };
+		0259946B22C53A0A0017850B /* CnpjValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidator.swift; sourceTree = "<group>"; };
+		0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidatorTests.swift; sourceTree = "<group>"; };
 		C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilitiesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922509C227B4D8400ABFB38 /* UtilitiesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesCore.h; sourceTree = "<group>"; };
 		C922509D227B4D8400ABFB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */,
 				C9835CD12281B8A800DB672B /* FutureDateValidator.swift */,
 				0259946722C52F7F0017850B /* CpfValidator.swift */,
+				0259946B22C53A0A0017850B /* CnpjValidator.swift */,
 				C9835CF02282065B00DB672B /* CustomValidator.swift */,
 			);
 			path = Validators;
@@ -201,6 +206,7 @@
 				C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */,
 				C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */,
 				0259946922C531400017850B /* CpfValidatorTests.swift */,
+				0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */,
 				C9835CD82281B8A800DB672B /* Validator.swift in Sources */,
 				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
+				0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
 				C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */,
 				C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */,
@@ -346,6 +353,7 @@
 				0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */,
 				C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */,
 				C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */,
+				0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */,
 				C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */,
 				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,

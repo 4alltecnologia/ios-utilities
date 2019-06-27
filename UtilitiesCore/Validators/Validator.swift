@@ -22,6 +22,7 @@ public enum ValidatorType {
     case futureDate(dateFormatter: DateFormatter)
     case alphabet
     case cpf
+    case cnpj
     case custom(validation: ValidationFunction)
 }
 
@@ -35,6 +36,7 @@ public enum ValidatorFactory {
         case .alphabet: return AlphabetValidator()
         case .futureDate(let dateFormatter): return FutureDateValidator(dateFormatter: dateFormatter)
         case .cpf: return CpfValidator()
+        case .cnpj: return CnpjValidator()
         case .custom(let validationFunction): return CustomValidator(validationFunction: validationFunction)
         }
     }
@@ -43,6 +45,7 @@ public enum ValidatorFactory {
 public struct ValidatorsConstants {
     struct Regex {
         static let cpf = "[0-9]{3}\\.?[0-9]{3}\\.?[0-9]{3}\\-?[0-9]{2}"
+        static let cnpj = "[0-9]{2}\\.?[0-9]{3}\\.?[0-9]{3}\\/?[0-9]{4}\\-?[0-9]{2}"
         static let email = "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$"
         static let password = "^(?=.*\\d)(?=.*[a-zA-Z]).{8,}$"
         static let alphabet = "(?i)^(?:(?![×Þß÷þø])[-' a-zÀ-ÿ])+$"
