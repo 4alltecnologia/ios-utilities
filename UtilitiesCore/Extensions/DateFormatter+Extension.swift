@@ -11,11 +11,11 @@ import Foundation
 public extension DateFormatter {
 
     /// Default brazilian date formatt dd/MM/yyyy
-    static let brazillianDateFormatWithoutTime: DateFormatter = {
+    static var brazillianDateFormatWithoutTime: DateFormatter {
         let formatter = DateFormatter()
         formatter.dateFormat = "dd/MM/yyyy"
         return formatter
-    }()
+    }
 }
 
 extension ISO8601DateFormatter {
@@ -27,7 +27,7 @@ extension ISO8601DateFormatter {
 }
 
 extension Formatter {
-    static let iso8601: ISO8601DateFormatter = {
+    static var iso8601: ISO8601DateFormatter {
         let formatter = ISO8601DateFormatter()
         if #available(iOS 11.0, *) {
             formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
@@ -35,6 +35,6 @@ extension Formatter {
             formatter.formatOptions = [.withInternetDateTime]
         }
         return formatter
-    }()
+    }
     static let iso8601noFS = ISO8601DateFormatter()
 }
