@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode10.2
+xcode_project: UtilitiesCore.xcodeproj
+xcode_scheme: UtilitiesCore
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+before_install:
+- brew install swiftlint
+- swiftlint
