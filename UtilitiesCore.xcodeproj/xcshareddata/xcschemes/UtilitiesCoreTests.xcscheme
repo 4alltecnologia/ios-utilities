@@ -9,23 +9,9 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9225098227B4D8400ABFB38"
-               BuildableName = "UtilitiesCore.framework"
-               BlueprintName = "UtilitiesCore"
-               ReferencedContainer = "container:UtilitiesCore.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C92250A1227B4D8400ABFB38"
@@ -54,15 +40,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9225098227B4D8400ABFB38"
-            BuildableName = "UtilitiesCore.framework"
-            BlueprintName = "UtilitiesCore"
-            ReferencedContainer = "container:UtilitiesCore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -79,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9225098227B4D8400ABFB38"
-            BuildableName = "UtilitiesCore.framework"
-            BlueprintName = "UtilitiesCore"
+            BlueprintIdentifier = "C92250A1227B4D8400ABFB38"
+            BuildableName = "UtilitiesCoreTests.xctest"
+            BlueprintName = "UtilitiesCoreTests"
             ReferencedContainer = "container:UtilitiesCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -97,9 +74,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9225098227B4D8400ABFB38"
-            BuildableName = "UtilitiesCore.framework"
-            BlueprintName = "UtilitiesCore"
+            BlueprintIdentifier = "C92250A1227B4D8400ABFB38"
+            BuildableName = "UtilitiesCoreTests.xctest"
+            BlueprintName = "UtilitiesCoreTests"
             ReferencedContainer = "container:UtilitiesCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
