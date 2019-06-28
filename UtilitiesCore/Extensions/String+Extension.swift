@@ -7,14 +7,16 @@
 //
 
 import Foundation
-import CommonCrypto
 
 public extension String {
+    /// Returns a String removing all whitespaces, not only the leading/trailing but also in the middle of the string
+    var removingWhitespaces: String {
+        return components(separatedBy: .whitespaces).joined()
+    }
 
-    /// A new String removing all white spaces, not only in the begin/ending but also in the middle of the string.
-    var stringByRemovingWhitespaces: String {
-        let components = self.components(separatedBy: .whitespaces)
-        return components.joined(separator: "")
+    /// Returns a String removing the leading/trailing whitespaces and new lines
+    var trimmingWhitespacesAndNewLines: String {
+        return trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
     /// Transform String date from one format to another
@@ -38,28 +40,56 @@ public extension String {
 }
 
 public extension String {
-    /// A String containing only numbers or empty
+    /// Returns a String containing only numbers or an empty String
     var numbersOnly: String {
         return components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
     }
 
-    /// Verify if the string has a number in the characters
+    /// Verify if the string has one or more numbers
+    var hasNumbers: Bool {
+        return rangeOfCharacter(from: .decimalDigits, options: .literal, range: nil) != nil
+    }
+
+    /// Verify if the string has only numbers
     var hasOnlyNumbers: Bool {
         return rangeOfCharacter(from: CharacterSet.decimalDigits.inverted) == nil
+    }
+
+    /// Returns a String containing only letters or an empty String
+    var lettersOnly: String {
+        return components(separatedBy: CharacterSet.letters.inverted).joined()
+    }
+
+    /// Verify if the string has one or more letters
+    var hasLetters: Bool {
+        return rangeOfCharacter(from: .letters, options: .numeric, range: nil) != nil
+    }
+
+    /// Verify if the string has only letters
+    var hasOnlyLetters: Bool {
+        return rangeOfCharacter(from: CharacterSet.letters.inverted) == nil
+    }
+
+    /// Verify if the string contains at least one letter and one number
+    var isAlphaNumeric: Bool {
+        let hasLetters = rangeOfCharacter(from: .letters, options: .numeric, range: nil) != nil
+        let hasNumbers = rangeOfCharacter(from: .decimalDigits, options: .literal, range: nil) != nil
+        let comps = components(separatedBy: .alphanumerics)
+        return comps.joined(separator: "").isEmpty && hasLetters && hasNumbers
     }
 }
 
 public extension String {
     /// Dictionary from string JSON format
-    var toDictionary: [String: Any]? {
+    var toDictionary: [String: Any] {
         if let data = data(using: .utf8) {
             do {
-                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] ?? [:]
             } catch {
-                return nil
+                return [:]
             }
         }
-        return nil
+        return [:]
     }
 }
 
@@ -84,7 +114,6 @@ public extension String {
             return NSAttributedString()
         }
     }
-
 
     /// Create a substring based on the range passed
     ///

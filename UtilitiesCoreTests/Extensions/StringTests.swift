@@ -15,13 +15,13 @@ class StringTests: XCTestCase {
         let hello = "Hello World"
 
         let partialRangeFrom = hello[3...]
-        let PartialRangeTo = hello[..<7]
+        let partialRangeTo = hello[..<7]
         let partialRangeThrough = hello[...7]
         let closedRange = hello[3...7]
         let range = hello[3..<7]
 
         XCTAssertEqual(partialRangeFrom, "lo World")
-        XCTAssertEqual(PartialRangeTo, "Hello W")
+        XCTAssertEqual(partialRangeTo, "Hello W")
         XCTAssertEqual(partialRangeThrough, "Hello Wo")
         XCTAssertEqual(closedRange, "lo Wo")
         XCTAssertEqual(range, "lo W")
@@ -34,7 +34,13 @@ class StringTests: XCTestCase {
         XCTAssertEqual("12", digits)
     }
 
-    func testStringHasNumber() {
+    func testStringHasNumbers() {
+        let auxString1 = "Coco123nut"
+
+        XCTAssertTrue(auxString1.hasNumbers)
+    }
+
+    func testStringHasOnlyNumbers() {
         let auxString1 = "Coco123nut"
 
         XCTAssertFalse(auxString1.hasOnlyNumbers)
@@ -44,12 +50,53 @@ class StringTests: XCTestCase {
         XCTAssertTrue(auxString2.hasOnlyNumbers)
     }
 
-    func testeStringRemovingWhiteSpaces() {
+    func testGetOnlyLettersFromString() {
+        let auxString = "Ba12nana"
+        let letters = auxString.lettersOnly
+
+        XCTAssertEqual("Banana", letters)
+    }
+
+    func testStringHasLetters() {
+        let auxString1 = "Coco123nut"
+
+        XCTAssertTrue(auxString1.hasLetters)
+    }
+
+    func testStringHasOnlyLetters() {
+        let auxString1 = "Coco123nut"
+
+        XCTAssertFalse(auxString1.hasOnlyLetters)
+
+        let auxString2 = "abc"
+
+        XCTAssertTrue(auxString2.hasOnlyLetters)
+    }
+
+    func testStringIsAlphanumeric() {
+        let auxString1 = "Coco123nut"
+
+        XCTAssertTrue(auxString1.isAlphaNumeric)
+
+        let auxString2 = "abc"
+
+        XCTAssertFalse(auxString2.isAlphaNumeric)
+    }
+
+    func testStringRemovingWhitespaces() {
         let auxString = " Saibot says, Hello World!"
 
-        let newString = auxString.stringByRemovingWhitespaces
+        let newString = auxString.removingWhitespaces
 
         XCTAssertEqual(newString, "Saibotsays,HelloWorld!")
+    }
+
+    func testStringTrimmingWhitespacesAndNewLines() {
+        let auxString = " Saibot says, Hello World!\n "
+
+        let newString = auxString.trimmingWhitespacesAndNewLines
+
+        XCTAssertEqual(newString, "Saibot says, Hello World!")
     }
 
     func testTransformDateFormat() {

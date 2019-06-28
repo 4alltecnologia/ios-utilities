@@ -32,6 +32,7 @@ class DateFormatterTests: XCTestCase {
         let dateString = "2019-03-12T19:18:11.000Z"
         let date = Formatter.iso8601.date(from: dateString)
 
+        //swiftlint:disable force_unwrapping
         let dateComponents = Calendar.current.dateComponents(in: TimeZone(abbreviation: "UTC")!, from: date!)
 
         XCTAssertEqual(dateComponents.day, 12)
