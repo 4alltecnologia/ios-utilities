@@ -10,8 +10,8 @@ import UIKit
 
 extension UITextField {
 
-    /// This functions is used to validate the textField .text
-    /// with the validations functions also created in this framework
+    /// This functions is used to validate the textField.text
+    /// with the validation functions also created in this framework
     ///
     /// - Parameter validationType: the validatorType to perform the validation
     /// - Returns: a swift 5 result type with error or the .text content string of self

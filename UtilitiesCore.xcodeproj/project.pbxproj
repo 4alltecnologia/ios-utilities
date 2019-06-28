@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C90551CF22B27F1700FC600A /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90551CE22B27F1700FC600A /* EncodableTests.swift */; };
+		0259946822C52F7F0017850B /* CpfValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946722C52F7F0017850B /* CpfValidator.swift */; };
+		0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946922C531400017850B /* CpfValidatorTests.swift */; };
+		0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946B22C53A0A0017850B /* CnpjValidator.swift */; };
+		0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */; };
 		C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90551D022B27F4900FC600A /* DecodableTests.swift */; };
 		C92250A3227B4D8400ABFB38 /* UtilitiesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */; };
 		C92250AA227B4D8400ABFB38 /* UtilitiesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C922509C227B4D8400ABFB38 /* UtilitiesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +42,8 @@
 		C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D0322833FBD00DB672B /* UITextFieldTests.swift */; };
 		C99B09B522B27C5E00AADF3B /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */; };
 		C99B09B722B27CC800AADF3B /* Decode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B09B622B27CC800AADF3B /* Decode+Extension.swift */; };
+		C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */; };
+		C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5C229D920800939BFB /* EncodableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C90551CE22B27F1700FC600A /* EncodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
+		0259946722C52F7F0017850B /* CpfValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidator.swift; sourceTree = "<group>"; };
+		0259946922C531400017850B /* CpfValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidatorTests.swift; sourceTree = "<group>"; };
+		0259946B22C53A0A0017850B /* CnpjValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidator.swift; sourceTree = "<group>"; };
+		0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidatorTests.swift; sourceTree = "<group>"; };
 		C90551D022B27F4900FC600A /* DecodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableTests.swift; sourceTree = "<group>"; };
 		C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilitiesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922509C227B4D8400ABFB38 /* UtilitiesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesCore.h; sourceTree = "<group>"; };
@@ -87,6 +95,8 @@
 		C9835D0322833FBD00DB672B /* UITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldTests.swift; sourceTree = "<group>"; };
 		C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
 		C99B09B622B27CC800AADF3B /* Decode+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decode+Extension.swift"; sourceTree = "<group>"; };
+		C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		C9ED4A5C229D920800939BFB /* EncodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,7 @@
 				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
 				C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */,
 				C99B09B622B27CC800AADF3B /* Decode+Extension.swift */,
+				C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -170,8 +181,8 @@
 				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
 				C92250CF227B683500ABFB38 /* StringTests.swift */,
 				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
-				C90551CE22B27F1700FC600A /* EncodableTests.swift */,
 				C90551D022B27F4900FC600A /* DecodableTests.swift */,
+				C9ED4A5C229D920800939BFB /* EncodableTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,6 +197,8 @@
 				C9835CC92281B8A700DB672B /* PasswordValidator.swift */,
 				C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */,
 				C9835CD12281B8A800DB672B /* FutureDateValidator.swift */,
+				0259946722C52F7F0017850B /* CpfValidator.swift */,
+				0259946B22C53A0A0017850B /* CnpjValidator.swift */,
 				C9835CF02282065B00DB672B /* CustomValidator.swift */,
 			);
 			path = Validators;
@@ -201,6 +214,8 @@
 				C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */,
 				C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */,
 				C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */,
+				0259946922C531400017850B /* CpfValidatorTests.swift */,
+				0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -344,10 +359,13 @@
 				C9835CD82281B8A800DB672B /* Validator.swift in Sources */,
 				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
 				C99B09B522B27C5E00AADF3B /* Encodable+Extensions.swift in Sources */,
+				0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
+				C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */,
 				C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */,
 				C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */,
 				C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */,
+				0259946822C52F7F0017850B /* CpfValidator.swift in Sources */,
 				C9835CEE2282030600DB672B /* FutureDateValidator.swift in Sources */,
 				C99B09B722B27CC800AADF3B /* Decode+Extension.swift in Sources */,
 				C92250C1227B527800ABFB38 /* NumberFormatter+Extension.swift in Sources */,
@@ -365,9 +383,11 @@
 				C9835CFE2283177100DB672B /* FutureDateValidatorTests.swift in Sources */,
 				C9835CF622821FE300DB672B /* RequiredFieldValidatorTests.swift in Sources */,
 				C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */,
+				0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */,
 				C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */,
 				C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */,
-				C90551CF22B27F1700FC600A /* EncodableTests.swift in Sources */,
+				0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */,
+				C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */,
 				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,
 				C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */,

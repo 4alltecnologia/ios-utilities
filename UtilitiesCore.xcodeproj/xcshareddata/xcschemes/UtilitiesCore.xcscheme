@@ -20,6 +20,20 @@
                ReferencedContainer = "container:UtilitiesCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C92250A1227B4D8400ABFB38"
+               BuildableName = "UtilitiesCoreTests.xctest"
+               BlueprintName = "UtilitiesCoreTests"
+               ReferencedContainer = "container:UtilitiesCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
