@@ -10,13 +10,13 @@ import Foundation
 
 public extension NumberFormatter {
 
-    /// Returns a currency formatter with brazillian settings
-    static let brazilianCurrencyFormatter: NumberFormatter = {
+    /// Use this variable to get double value from decimal
+    static var brazilianCurrencyFormatter: NumberFormatter {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currencyAccounting
         formatter.locale = Locale(identifier: "pt_BR")
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
         return formatter
-    }()
+    }
 }

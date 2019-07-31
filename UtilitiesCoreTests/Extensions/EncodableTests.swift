@@ -2,7 +2,7 @@
 //  EncodableTests.swift
 //  UtilitiesCoreTests
 //
-//  Created by Felipe Dias Pereira on 28/05/19.
+//  Created by Felipe Dias Pereira on 13/06/19.
 //  Copyright © 2019 4all. All rights reserved.
 //
 
@@ -11,43 +11,41 @@ import XCTest
 
 class EncodableTests: XCTestCase {
 
-    struct TestEncodable: Encodable {
-        var name: String
-        var subTitle: String?
-        var amount: Int
-    }
+    func testEncodeCustomISO8601DateStrategy() {
+        // Given
+        let dateString = "2019-03-12T19:18:11.000Z"
+        let date = Formatter.iso8601.date(from: dateString)
 
-    var object: TestEncodable!
-
-    override func setUp() {
-        super.setUp()
-        object = TestEncodable(name: "Felipe", subTitle: "Great", amount: 10)
-    }
-
-    func testObjectToDictionary() {
-        let dictionary: [String: Any] = ["name" : "Felipe",
-                                         "subTitle": "Great",
-                                         "amount": 10]
-
-        let resultDictionary = object.dictionary
-
-        XCTAssertEqual(dictionary["name"] as? String, resultDictionary["name"] as? String)
-        XCTAssertEqual(dictionary["subTitle"] as? String, resultDictionary["subTitle"] as? String)
-        XCTAssertEqual(dictionary["amount"] as? Int, resultDictionary["amount"] as? Int)
-    }
-
-    func testAccessToDictionary() {
-        if let name = object["name"] as? String {
-            XCTAssertEqual(name, "Felipe")
-        } else {
-            XCTFail("Cannot generate dictionary")
+        struct TestObject: Encodable {
+            var name: String
+            var createdAt: Date
         }
 
-        if let amount = object["amount"] as? Int {
-            XCTAssertEqual(amount, 10)
-        } else {
-            XCTFail("Cannot generate dictionary")
+        //swiftlint:disable force_unwrapping
+        let object = TestObject(name: "Felipe", createdAt: date!)
+
+        // When
+        do {
+            let dictionaryComparable = [ "name" : "Felipe",
+                                         "createdAt" : "2019-03-12T19:18:11.000Z"]
+
+            let encoder = JSONEncoder()
+            encoder.dateEncodingStrategy = .customISO8601
+
+            let data = try encoder.encode(object)
+            guard let dictionary = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String : Any] else {
+                XCTFail( "cannot parse to dictionary")
+                return
+            }
+
+            let name = dictionary["name"] as? String
+            let date = dictionary["createdAt"] as? String
+
+            // Then
+            XCTAssertEqual(dictionaryComparable["name"], name)
+            XCTAssertEqual(dictionaryComparable["createdAt"], date)
+        } catch {
+            XCTFail("Failed on parsing json")
         }
     }
 }
-

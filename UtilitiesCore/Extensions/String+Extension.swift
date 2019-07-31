@@ -75,21 +75,21 @@ public extension String {
         let hasLetters = rangeOfCharacter(from: .letters, options: .numeric, range: nil) != nil
         let hasNumbers = rangeOfCharacter(from: .decimalDigits, options: .literal, range: nil) != nil
         let comps = components(separatedBy: .alphanumerics)
-        return comps.joined(separator: "").count == 0 && hasLetters && hasNumbers
+        return comps.joined(separator: "").isEmpty && hasLetters && hasNumbers
     }
 }
 
 public extension String {
     /// Dictionary from string JSON format
-    var toDictionary: [String: Any]? {
+    var toDictionary: [String: Any] {
         if let data = data(using: .utf8) {
             do {
-                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] ?? [:]
             } catch {
-                return nil
+                return [:]
             }
         }
-        return nil
+        return [:]
     }
 }
 
@@ -114,7 +114,6 @@ public extension String {
             return NSAttributedString()
         }
     }
-
 
     /// Create a substring based on the range passed
     ///

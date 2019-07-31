@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ValidAgeValidatorErrors Enumeration Reference</title>
+    <title>CnpjValidator Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/ValidAgeValidatorErrors" class="dashAnchor"></a>
-    <a title="ValidAgeValidatorErrors Enumeration Reference"></a>
+    <a name="//apple_ref/swift/Class/CnpjValidator" class="dashAnchor"></a>
+    <a title="CnpjValidator Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">UtilitiesCore 0.0.1 Docs</a> (25% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">UtilitiesCore Reference</a>
         <img id="carat" src="../img/carat.png" />
-        ValidAgeValidatorErrors Enumeration Reference
+        CnpjValidator Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -144,10 +144,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>ValidAgeValidatorErrors</h1>
+            <h1>CnpjValidator</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ValidAgeValidatorErrors</span> <span class="p">:</span> <span class="kt">Error</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">CnpjValidator</span></code></pre>
 
                 </div>
               </div>
@@ -160,9 +160,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13UtilitiesCore23ValidAgeValidatorErrorsO18invalidDateFormattyA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/invalidDateFormatt" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13UtilitiesCore23ValidAgeValidatorErrorsO18invalidDateFormattyA2CmF">invalidDateFormatt</a>
+                    <a name="/s:13UtilitiesCore13CnpjValidatorC9validatedys6ResultOySSs5Error_pGSSF"></a>
+                    <a name="//apple_ref/swift/Method/validated(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13UtilitiesCore13CnpjValidatorC9validatedys6ResultOySSs5Error_pGSSF">validated(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -177,72 +177,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalidDateFormatt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">validated</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Result</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Validators/ValidAgeValidator.swift#L">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:13UtilitiesCore23ValidAgeValidatorErrorsO21ageBiggerThan140YearsyA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/ageBiggerThan140Years" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13UtilitiesCore23ValidAgeValidatorErrorsO21ageBiggerThan140YearsyA2CmF">ageBiggerThan140Years</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">ageBiggerThan140Years</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Validators/ValidAgeValidator.swift#L">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:13UtilitiesCore23ValidAgeValidatorErrorsO22ageShouldBeBiggerThan0yA2CmF"></a>
-                    <a name="//apple_ref/swift/Element/ageShouldBeBiggerThan0" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13UtilitiesCore23ValidAgeValidatorErrorsO22ageShouldBeBiggerThan0yA2CmF">ageShouldBeBiggerThan0</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">ageShouldBeBiggerThan0</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Validators/ValidAgeValidator.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/4alltecnologia/ios-utilities/tree/v0.0.1/UtilitiesCore/Validators/CnpjValidator.swift#L19-L35">Show on GitHub</a>
                       </div>
                     </section>
                   </div>

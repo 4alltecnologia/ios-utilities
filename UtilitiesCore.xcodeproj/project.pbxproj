@@ -11,6 +11,7 @@
 		0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946922C531400017850B /* CpfValidatorTests.swift */; };
 		0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946B22C53A0A0017850B /* CnpjValidator.swift */; };
 		0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */; };
+		C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90551D022B27F4900FC600A /* DecodableTests.swift */; };
 		C92250A3227B4D8400ABFB38 /* UtilitiesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */; };
 		C92250AA227B4D8400ABFB38 /* UtilitiesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C922509C227B4D8400ABFB38 /* UtilitiesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B6227B527700ABFB38 /* Decimal+Extension.swift */; };
@@ -39,6 +40,8 @@
 		C9835D00228319AC00DB672B /* CustomValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */; };
 		C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D01228320FF00DB672B /* UITextField+Extension.swift */; };
 		C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9835D0322833FBD00DB672B /* UITextFieldTests.swift */; };
+		C99B09B522B27C5E00AADF3B /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */; };
+		C99B09B722B27CC800AADF3B /* Decode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B09B622B27CC800AADF3B /* Decode+Extension.swift */; };
 		C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */; };
 		C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED4A5C229D920800939BFB /* EncodableTests.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,7 @@
 		0259946922C531400017850B /* CpfValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidatorTests.swift; sourceTree = "<group>"; };
 		0259946B22C53A0A0017850B /* CnpjValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidator.swift; sourceTree = "<group>"; };
 		0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidatorTests.swift; sourceTree = "<group>"; };
+		C90551D022B27F4900FC600A /* DecodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableTests.swift; sourceTree = "<group>"; };
 		C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilitiesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922509C227B4D8400ABFB38 /* UtilitiesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesCore.h; sourceTree = "<group>"; };
 		C922509D227B4D8400ABFB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 		C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValidatorTests.swift; sourceTree = "<group>"; };
 		C9835D01228320FF00DB672B /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		C9835D0322833FBD00DB672B /* UITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldTests.swift; sourceTree = "<group>"; };
+		C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		C99B09B622B27CC800AADF3B /* Decode+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decode+Extension.swift"; sourceTree = "<group>"; };
 		C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
 		C9ED4A5C229D920800939BFB /* EncodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +166,8 @@
 				C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */,
 				C92250BA227B527700ABFB38 /* Colletion+Extension.swift */,
 				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
+				C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */,
+				C99B09B622B27CC800AADF3B /* Decode+Extension.swift */,
 				C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */,
 			);
 			path = Extensions;
@@ -173,6 +181,7 @@
 				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
 				C92250CF227B683500ABFB38 /* StringTests.swift */,
 				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
+				C90551D022B27F4900FC600A /* DecodableTests.swift */,
 				C9ED4A5C229D920800939BFB /* EncodableTests.swift */,
 			);
 			path = Extensions;
@@ -233,6 +242,7 @@
 				C9225095227B4D8400ABFB38 /* Sources */,
 				C9225096227B4D8400ABFB38 /* Frameworks */,
 				C9225097227B4D8400ABFB38 /* Resources */,
+				C9B57C8E22C557200088F299 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -315,6 +325,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9B57C8E22C557200088F299 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9225095227B4D8400ABFB38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -327,6 +358,7 @@
 				C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */,
 				C9835CD82281B8A800DB672B /* Validator.swift in Sources */,
 				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
+				C99B09B522B27C5E00AADF3B /* Encodable+Extensions.swift in Sources */,
 				0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
 				C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */,
@@ -335,6 +367,7 @@
 				C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */,
 				0259946822C52F7F0017850B /* CpfValidator.swift in Sources */,
 				C9835CEE2282030600DB672B /* FutureDateValidator.swift in Sources */,
+				C99B09B722B27CC800AADF3B /* Decode+Extension.swift in Sources */,
 				C92250C1227B527800ABFB38 /* NumberFormatter+Extension.swift in Sources */,
 				C9835CF12282065B00DB672B /* CustomValidator.swift in Sources */,
 			);
@@ -357,6 +390,7 @@
 				C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */,
 				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,
+				C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */,
 				C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */,
 				C92250CA227B57FB00ABFB38 /* CollectionTests.swift in Sources */,
 			);
@@ -425,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -483,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -508,7 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UtilitiesCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,7 +570,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UtilitiesCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

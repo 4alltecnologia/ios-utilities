@@ -43,7 +43,6 @@ class CnpjValidatorTests: XCTestCase {
         }
     }
 
-
     func testShouldAcceptCorrectCnpj() {
         let validateResult = cnpjValidator.validated("01.585.026/0001-01")
 

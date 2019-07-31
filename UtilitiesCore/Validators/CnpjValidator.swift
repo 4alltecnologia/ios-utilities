@@ -35,7 +35,7 @@ extension CnpjValidator: ValidatorConvertible {
     }
 
     private func validateNumbersCNPJ(cnpj: String) -> Bool {
-        let numbers = cnpj.compactMap({ Int(String($0)) })
+        let numbers = cnpj.compactMap { Int(String($0)) }
 
         guard numbers.count == 14 && Set(numbers).count != 1 else { return false }
 
@@ -51,7 +51,7 @@ extension CnpjValidator: ValidatorConvertible {
 
                 if number == 9 { number = 1 }
 
-                } % 11
+            } % 11
 
             return digit > 9 ? 0 : digit
         }

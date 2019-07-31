@@ -43,7 +43,6 @@ class CpfValidatorTests: XCTestCase {
         }
     }
 
-
     func testShouldAcceptCorrectCpf() {
         let validateResult = cpfValidator.validated("012.345.678-90")
 

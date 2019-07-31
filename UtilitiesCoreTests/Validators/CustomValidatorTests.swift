@@ -17,6 +17,7 @@ class CustomValidatorTests: XCTestCase {
     }
 
     override func setUp() {
+        super.setUp()
         customValidator = ValidatorFactory.validatorFor(type: .custom(validation: { (value) -> Result<String, Error> in
             guard value == "testeCustom" else {
                 return .failure(CustomErrors.default)

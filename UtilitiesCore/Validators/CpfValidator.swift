@@ -35,7 +35,7 @@ extension CpfValidator: ValidatorConvertible {
     }
 
     private func validateNumbersCPF(cpf: String) -> Bool {
-        let numbers = cpf.compactMap( { Int(String($0)) } )
+        let numbers = cpf.compactMap { Int(String($0)) }
 
         guard numbers.count == 11 && Set(numbers).count != 1 else { return false }
 

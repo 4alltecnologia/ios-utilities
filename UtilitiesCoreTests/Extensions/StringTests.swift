@@ -15,13 +15,13 @@ class StringTests: XCTestCase {
         let hello = "Hello World"
 
         let partialRangeFrom = hello[3...]
-        let PartialRangeTo = hello[..<7]
+        let partialRangeTo = hello[..<7]
         let partialRangeThrough = hello[...7]
         let closedRange = hello[3...7]
         let range = hello[3..<7]
 
         XCTAssertEqual(partialRangeFrom, "lo World")
-        XCTAssertEqual(PartialRangeTo, "Hello W")
+        XCTAssertEqual(partialRangeTo, "Hello W")
         XCTAssertEqual(partialRangeThrough, "Hello Wo")
         XCTAssertEqual(closedRange, "lo Wo")
         XCTAssertEqual(range, "lo W")

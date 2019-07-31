@@ -16,7 +16,6 @@ extension Encodable {
         return dictionary[key]
     }
 
-
     /// Create a dictionary from Encodable object, uses jsonEncodar and JsonSerialization to do so
     var dictionary: [String: Any] {
         return (try? JSONSerialization.jsonObject(with: JSONEncoder().encode(self))) as? [String: Any] ?? [:]
