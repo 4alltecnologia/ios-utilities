@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension JSONDecoder.DateDecodingStrategy {
+public extension JSONDecoder.DateDecodingStrategy {
     static let customISO8601 = custom {
         let container = try $0.singleValueContainer()
         let string = try container.decode(String.self)

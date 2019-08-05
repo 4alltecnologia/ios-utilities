@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Encodable {
+public extension Encodable {
     /// Subscript to access the encodable object as a dictionary, returns Any object or nil if not found
     ///
     /// - Parameter key: The parameter name like a key in a dictionary
