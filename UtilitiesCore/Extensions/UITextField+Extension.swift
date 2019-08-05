@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
 
     /// This functions is used to validate the textField.text
     /// with the validation functions also created in this framework

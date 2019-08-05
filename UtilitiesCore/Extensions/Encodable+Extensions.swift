@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension JSONEncoder.DateEncodingStrategy {
+public extension JSONEncoder.DateEncodingStrategy {
     static let customISO8601 = custom {
         var container = $1.singleValueContainer()
         try container.encode(Formatter.iso8601.string(from: $0))
