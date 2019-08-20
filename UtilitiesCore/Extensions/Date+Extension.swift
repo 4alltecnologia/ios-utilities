@@ -33,10 +33,15 @@ public extension Date {
     
     /// Returns String from date.
     ///
-    /// - Parameter format: Date format.
+    /// - Parameters:
+    ///   - format: Date format.
+    ///   - timezone: TimeZone for the date. If none is passed, the device's locale is used.
     /// - Returns: Date's String.
-    func getString(withFormat format: String) -> String {
+    func getString(withFormat format: String, andTimezone timezone: TimeZone? = nil) -> String {
         let dateFormatter = DateFormatter()
+        if let zone = timezone {
+            dateFormatter.timeZone = zone
+        }
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)
     }

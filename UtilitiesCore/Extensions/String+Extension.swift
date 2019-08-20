@@ -75,10 +75,15 @@ public extension String {
 public extension String {
     /// Get Date from string.
     ///
-    /// - Parameter inputFormat: String's input format. Example: "23/04/2014" is "dd/MM/yyyy"
+    /// - Parameters:
+    ///   - inputFormat: String's input format. Example: "23/04/2014" is "dd/MM/yyyy"
+    ///   - timezone: TimeZone for the date. If none is passed, the device's locale is used.
     /// - Returns: Date
-    func getDate(withInputFormat inputFormat: String) -> Date? {
+    func getDate(withInputFormat inputFormat: String, andTimezone timezone: TimeZone? = nil) -> Date? {
         let dateFormatter = DateFormatter()
+        if let zone = timezone {
+            dateFormatter.timeZone = zone
+        }
         dateFormatter.dateFormat = inputFormat
         return dateFormatter.date(from: self)
     }

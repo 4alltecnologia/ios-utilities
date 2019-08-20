@@ -139,7 +139,7 @@ class StringTests: XCTestCase {
     func testGetDate() {
         let dateString = "06/11/1994 22:00:00"
         let expectedResult = Date(timeIntervalSince1970: 784166400)
-        let date = dateString.getDate(withInputFormat: "dd/MM/yyyy HH:mm:ss")
+        let date = dateString.getDate(withInputFormat: "dd/MM/yyyy HH:mm:ss", andTimezone: TimeZone(abbreviation: "GMT-3"))
         XCTAssertEqual(expectedResult, date)
     }
 }

@@ -36,7 +36,7 @@ class DateExtensionTests: XCTestCase {
     func testGetString() {
         let timestamp = Date(timeIntervalSince1970: 784166400)
         let expectedResult = "06/11/1994 10:00:00"
-        let dateString = timestamp.getString(withFormat: "dd/MM/yyyy hh:mm:ss")
+        let dateString = timestamp.getString(withFormat: "dd/MM/yyyy hh:mm:ss", andTimezone: TimeZone(abbreviation: "GMT-3"))
         XCTAssertEqual(expectedResult, dateString)
     }
 }
