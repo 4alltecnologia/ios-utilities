@@ -11,6 +11,25 @@
 		0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946922C531400017850B /* CpfValidatorTests.swift */; };
 		0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946B22C53A0A0017850B /* CnpjValidator.swift */; };
 		0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */; };
+		0279FD48230C0E6900AFD2CB /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD47230C0E6900AFD2CB /* UIActivityIndicatorView+Extension.swift */; };
+		0279FD4A230C0EB000AFD2CB /* UIActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD49230C0EB000AFD2CB /* UIActivityIndicatorViewTests.swift */; };
+		0279FD4C230C11F000AFD2CB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD4B230C11F000AFD2CB /* UIColor+Extension.swift */; };
+		0279FD4E230C123D00AFD2CB /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD4D230C123D00AFD2CB /* UIColorTests.swift */; };
+		0279FD50230C135300AFD2CB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD4F230C135300AFD2CB /* UIFont+Extension.swift */; };
+		0279FD54230C147300AFD2CB /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD53230C147300AFD2CB /* UILabel+Extension.swift */; };
+		0279FD56230C14A800AFD2CB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD55230C14A800AFD2CB /* UIView+Extension.swift */; };
+		0279FD58230C14EA00AFD2CB /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD57230C14EA00AFD2CB /* UIViewTests.swift */; };
+		0279FD5A230C174800AFD2CB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD59230C174800AFD2CB /* UIViewController+Extension.swift */; };
+		0279FD5C230C177400AFD2CB /* UIViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD5B230C177400AFD2CB /* UIViewControllerTests.swift */; };
+		0279FD5E230C188700AFD2CB /* NibRegistrableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD5D230C188700AFD2CB /* NibRegistrableView.swift */; };
+		0279FD60230C189400AFD2CB /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD5F230C189400AFD2CB /* NibInstantiable.swift */; };
+		0279FD62230C1B2E00AFD2CB /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279FD61230C1B2D00AFD2CB /* SystemInfo.swift */; };
+		028672C522FB37AE00C6326A /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672C422FB37AE00C6326A /* Float+Extension.swift */; };
+		028672C722FB381000C6326A /* FloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672C622FB381000C6326A /* FloatTests.swift */; };
+		028672C922FB387800C6326A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672C822FB387800C6326A /* Int+Extension.swift */; };
+		028672CD22FB3D1C00C6326A /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672CC22FB3D1C00C6326A /* IntTests.swift */; };
+		028672CF22FB3FFD00C6326A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672CE22FB3FFD00C6326A /* Date+Extension.swift */; };
+		028672D122FB591100C6326A /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028672D022FB591100C6326A /* DateTests.swift */; };
 		C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90551D022B27F4900FC600A /* DecodableTests.swift */; };
 		C92250A3227B4D8400ABFB38 /* UtilitiesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */; };
 		C92250AA227B4D8400ABFB38 /* UtilitiesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C922509C227B4D8400ABFB38 /* UtilitiesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,7 +37,7 @@
 		C92250C1227B527800ABFB38 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B7227B527700ABFB38 /* NumberFormatter+Extension.swift */; };
 		C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B8227B527700ABFB38 /* String+Extension.swift */; };
 		C92250C3227B527800ABFB38 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */; };
-		C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250BA227B527700ABFB38 /* Colletion+Extension.swift */; };
+		C92250C4227B527800ABFB38 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250BA227B527700ABFB38 /* Collection+Extension.swift */; };
 		C92250CA227B57FB00ABFB38 /* CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250C9227B57FB00ABFB38 /* CollectionTests.swift */; };
 		C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */; };
 		C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */; };
@@ -61,6 +80,25 @@
 		0259946922C531400017850B /* CpfValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpfValidatorTests.swift; sourceTree = "<group>"; };
 		0259946B22C53A0A0017850B /* CnpjValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidator.swift; sourceTree = "<group>"; };
 		0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnpjValidatorTests.swift; sourceTree = "<group>"; };
+		0279FD47230C0E6900AFD2CB /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
+		0279FD49230C0EB000AFD2CB /* UIActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
+		0279FD4B230C11F000AFD2CB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0279FD4D230C123D00AFD2CB /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
+		0279FD4F230C135300AFD2CB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		0279FD53230C147300AFD2CB /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		0279FD55230C14A800AFD2CB /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0279FD57230C14EA00AFD2CB /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
+		0279FD59230C174800AFD2CB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0279FD5B230C177400AFD2CB /* UIViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerTests.swift; sourceTree = "<group>"; };
+		0279FD5D230C188700AFD2CB /* NibRegistrableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibRegistrableView.swift; sourceTree = "<group>"; };
+		0279FD5F230C189400AFD2CB /* NibInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibInstantiable.swift; sourceTree = "<group>"; };
+		0279FD61230C1B2D00AFD2CB /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		028672C422FB37AE00C6326A /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
+		028672C622FB381000C6326A /* FloatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTests.swift; sourceTree = "<group>"; };
+		028672C822FB387800C6326A /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		028672CC22FB3D1C00C6326A /* IntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTests.swift; sourceTree = "<group>"; };
+		028672CE22FB3FFD00C6326A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		028672D022FB591100C6326A /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		C90551D022B27F4900FC600A /* DecodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableTests.swift; sourceTree = "<group>"; };
 		C9225099227B4D8400ABFB38 /* UtilitiesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilitiesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922509C227B4D8400ABFB38 /* UtilitiesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesCore.h; sourceTree = "<group>"; };
@@ -71,7 +109,7 @@
 		C92250B7227B527700ABFB38 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 		C92250B8227B527700ABFB38 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
-		C92250BA227B527700ABFB38 /* Colletion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colletion+Extension.swift"; sourceTree = "<group>"; };
+		C92250BA227B527700ABFB38 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		C92250C9227B57FB00ABFB38 /* CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTests.swift; sourceTree = "<group>"; };
 		C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTests.swift; sourceTree = "<group>"; };
 		C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterTests.swift; sourceTree = "<group>"; };
@@ -118,6 +156,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		028672C322FB360E00C6326A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0279FD5D230C188700AFD2CB /* NibRegistrableView.swift */,
+				0279FD5F230C189400AFD2CB /* NibInstantiable.swift */,
+				0279FD61230C1B2D00AFD2CB /* SystemInfo.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C922508F227B4D8400ABFB38 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +187,7 @@
 		C922509B227B4D8400ABFB38 /* UtilitiesCore */ = {
 			isa = PBXGroup;
 			children = (
+				028672C322FB360E00C6326A /* Resources */,
 				C9835CC82281B89500DB672B /* Validators */,
 				C92250B5227B527700ABFB38 /* Extensions */,
 				C922509C227B4D8400ABFB38 /* UtilitiesCore.h */,
@@ -160,15 +209,24 @@
 		C92250B5227B527700ABFB38 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C92250B6227B527700ABFB38 /* Decimal+Extension.swift */,
-				C92250B7227B527700ABFB38 /* NumberFormatter+Extension.swift */,
-				C92250B8227B527700ABFB38 /* String+Extension.swift */,
+				C92250BA227B527700ABFB38 /* Collection+Extension.swift */,
+				028672CE22FB3FFD00C6326A /* Date+Extension.swift */,
 				C92250B9227B527700ABFB38 /* DateFormatter+Extension.swift */,
-				C92250BA227B527700ABFB38 /* Colletion+Extension.swift */,
-				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
-				C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */,
+				C92250B6227B527700ABFB38 /* Decimal+Extension.swift */,
 				C99B09B622B27CC800AADF3B /* Decode+Extension.swift */,
 				C9ED4A5A229D91F100939BFB /* Encodable+Extension.swift */,
+				C99B09B422B27C5E00AADF3B /* Encodable+Extensions.swift */,
+				028672C422FB37AE00C6326A /* Float+Extension.swift */,
+				028672C822FB387800C6326A /* Int+Extension.swift */,
+				C92250B7227B527700ABFB38 /* NumberFormatter+Extension.swift */,
+				C92250B8227B527700ABFB38 /* String+Extension.swift */,
+				0279FD47230C0E6900AFD2CB /* UIActivityIndicatorView+Extension.swift */,
+				0279FD4B230C11F000AFD2CB /* UIColor+Extension.swift */,
+				0279FD4F230C135300AFD2CB /* UIFont+Extension.swift */,
+				0279FD53230C147300AFD2CB /* UILabel+Extension.swift */,
+				C9835D01228320FF00DB672B /* UITextField+Extension.swift */,
+				0279FD55230C14A800AFD2CB /* UIView+Extension.swift */,
+				0279FD59230C174800AFD2CB /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -177,12 +235,19 @@
 			isa = PBXGroup;
 			children = (
 				C92250C9227B57FB00ABFB38 /* CollectionTests.swift */,
+				028672D022FB591100C6326A /* DateTests.swift */,
 				C92250CB227B5FCB00ABFB38 /* DateFormatterTests.swift */,
-				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
-				C92250CF227B683500ABFB38 /* StringTests.swift */,
-				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
 				C90551D022B27F4900FC600A /* DecodableTests.swift */,
 				C9ED4A5C229D920800939BFB /* EncodableTests.swift */,
+				028672C622FB381000C6326A /* FloatTests.swift */,
+				028672CC22FB3D1C00C6326A /* IntTests.swift */,
+				C92250CD227B62C700ABFB38 /* NumberFormatterTests.swift */,
+				C92250CF227B683500ABFB38 /* StringTests.swift */,
+				0279FD49230C0EB000AFD2CB /* UIActivityIndicatorViewTests.swift */,
+				0279FD4D230C123D00AFD2CB /* UIColorTests.swift */,
+				C9835D0322833FBD00DB672B /* UITextFieldTests.swift */,
+				0279FD57230C14EA00AFD2CB /* UIViewTests.swift */,
+				0279FD5B230C177400AFD2CB /* UIViewControllerTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,16 +255,16 @@
 		C9835CC82281B89500DB672B /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				C9835CCF2281B8A800DB672B /* Validator.swift */,
-				C9835CDB2281BECD00DB672B /* RequiredFieldValidator.swift */,
-				C9835CCE2281B8A700DB672B /* EmailValidator.swift */,
-				C9835CCB2281B8A700DB672B /* ValidAgeValidator.swift */,
-				C9835CC92281B8A700DB672B /* PasswordValidator.swift */,
 				C9835CCD2281B8A700DB672B /* AlphabetValidator.swift */,
-				C9835CD12281B8A800DB672B /* FutureDateValidator.swift */,
-				0259946722C52F7F0017850B /* CpfValidator.swift */,
 				0259946B22C53A0A0017850B /* CnpjValidator.swift */,
+				0259946722C52F7F0017850B /* CpfValidator.swift */,
 				C9835CF02282065B00DB672B /* CustomValidator.swift */,
+				C9835CCE2281B8A700DB672B /* EmailValidator.swift */,
+				C9835CD12281B8A800DB672B /* FutureDateValidator.swift */,
+				C9835CC92281B8A700DB672B /* PasswordValidator.swift */,
+				C9835CDB2281BECD00DB672B /* RequiredFieldValidator.swift */,
+				C9835CCB2281B8A700DB672B /* ValidAgeValidator.swift */,
+				C9835CCF2281B8A800DB672B /* Validator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -207,15 +272,15 @@
 		C9835CF222821AAF00DB672B /* Validators */ = {
 			isa = PBXGroup;
 			children = (
+				C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */,
+				0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */,
+				0259946922C531400017850B /* CpfValidatorTests.swift */,
+				C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */,
 				C9835CF522821FE300DB672B /* RequiredFieldValidatorTests.swift */,
 				C9835CF322821B8500DB672B /* EmailValidatorTests.swift */,
-				C9835CF7228220B300DB672B /* ValidAgeValidatorTests.swift */,
-				C9835CF92283135200DB672B /* PasswordValidatorTests.swift */,
-				C9835CFB228314E200DB672B /* AlphabetValidatorTests.swift */,
 				C9835CFD2283177100DB672B /* FutureDateValidatorTests.swift */,
-				C9835CFF228319AC00DB672B /* CustomValidatorTests.swift */,
-				0259946922C531400017850B /* CpfValidatorTests.swift */,
-				0259946D22C53B2B0017850B /* CnpjValidatorTests.swift */,
+				C9835CF92283135200DB672B /* PasswordValidatorTests.swift */,
+				C9835CF7228220B300DB672B /* ValidAgeValidatorTests.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -351,8 +416,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0279FD5E230C188700AFD2CB /* NibRegistrableView.swift in Sources */,
+				0279FD60230C189400AFD2CB /* NibInstantiable.swift in Sources */,
 				C9835CDC2281BECD00DB672B /* RequiredFieldValidator.swift in Sources */,
+				028672CF22FB3FFD00C6326A /* Date+Extension.swift in Sources */,
+				0279FD62230C1B2E00AFD2CB /* SystemInfo.swift in Sources */,
 				C9835CD42281B8A800DB672B /* ValidAgeValidator.swift in Sources */,
+				028672C522FB37AE00C6326A /* Float+Extension.swift in Sources */,
+				0279FD5A230C174800AFD2CB /* UIViewController+Extension.swift in Sources */,
+				028672C922FB387800C6326A /* Int+Extension.swift in Sources */,
 				C9835CEC2281F01200DB672B /* EmailValidator.swift in Sources */,
 				C92250C3227B527800ABFB38 /* DateFormatter+Extension.swift in Sources */,
 				C92250C0227B527800ABFB38 /* Decimal+Extension.swift in Sources */,
@@ -360,15 +432,20 @@
 				C9835CEF2282042B00DB672B /* AlphabetValidator.swift in Sources */,
 				C99B09B522B27C5E00AADF3B /* Encodable+Extensions.swift in Sources */,
 				0259946C22C53A0A0017850B /* CnpjValidator.swift in Sources */,
+				0279FD56230C14A800AFD2CB /* UIView+Extension.swift in Sources */,
 				C92250C2227B527800ABFB38 /* String+Extension.swift in Sources */,
+				0279FD48230C0E6900AFD2CB /* UIActivityIndicatorView+Extension.swift in Sources */,
 				C9ED4A5B229D91F100939BFB /* Encodable+Extension.swift in Sources */,
+				0279FD4C230C11F000AFD2CB /* UIColor+Extension.swift in Sources */,
 				C9835CED228201B600DB672B /* PasswordValidator.swift in Sources */,
 				C9835D02228320FF00DB672B /* UITextField+Extension.swift in Sources */,
-				C92250C4227B527800ABFB38 /* Colletion+Extension.swift in Sources */,
+				0279FD50230C135300AFD2CB /* UIFont+Extension.swift in Sources */,
+				C92250C4227B527800ABFB38 /* Collection+Extension.swift in Sources */,
 				0259946822C52F7F0017850B /* CpfValidator.swift in Sources */,
 				C9835CEE2282030600DB672B /* FutureDateValidator.swift in Sources */,
 				C99B09B722B27CC800AADF3B /* Decode+Extension.swift in Sources */,
 				C92250C1227B527800ABFB38 /* NumberFormatter+Extension.swift in Sources */,
+				0279FD54230C147300AFD2CB /* UILabel+Extension.swift in Sources */,
 				C9835CF12282065B00DB672B /* CustomValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,10 +463,17 @@
 				0259946A22C531400017850B /* CpfValidatorTests.swift in Sources */,
 				C9835CFA2283135200DB672B /* PasswordValidatorTests.swift in Sources */,
 				C9835D0422833FBD00DB672B /* UITextFieldTests.swift in Sources */,
+				028672CD22FB3D1C00C6326A /* IntTests.swift in Sources */,
 				0259946E22C53B2B0017850B /* CnpjValidatorTests.swift in Sources */,
+				0279FD4E230C123D00AFD2CB /* UIColorTests.swift in Sources */,
+				0279FD4A230C0EB000AFD2CB /* UIActivityIndicatorViewTests.swift in Sources */,
 				C9ED4A5D229D920800939BFB /* EncodableTests.swift in Sources */,
+				028672D122FB591100C6326A /* DateTests.swift in Sources */,
+				0279FD5C230C177400AFD2CB /* UIViewControllerTests.swift in Sources */,
 				C9835CF8228220B300DB672B /* ValidAgeValidatorTests.swift in Sources */,
+				0279FD58230C14EA00AFD2CB /* UIViewTests.swift in Sources */,
 				C92250CE227B62C700ABFB38 /* NumberFormatterTests.swift in Sources */,
+				028672C722FB381000C6326A /* FloatTests.swift in Sources */,
 				C90551D122B27F4900FC600A /* DecodableTests.swift in Sources */,
 				C92250CC227B5FCB00ABFB38 /* DateFormatterTests.swift in Sources */,
 				C92250CA227B57FB00ABFB38 /* CollectionTests.swift in Sources */,

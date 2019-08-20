@@ -113,4 +113,33 @@ class StringTests: XCTestCase {
 
         XCTAssertEqual(number, 1200.12)
     }
+    
+    func testCurrencyFormat() {
+        let possibleValues = ["5000", "R$ 5000", "5,000", "R$ 50,00"]
+        for value in possibleValues {
+            XCTAssertEqual(value.textFieldCurrencyFormat, "R$\u{00a0}50,00")
+        }
+    }
+    
+    func testAmountCentsFormat() {
+        let cents = 1000
+        guard let amountString = cents.priceStringFromCents else {
+            XCTFail("Couldn't get price string")
+            return
+        }
+        XCTAssertEqual(amountString, "R$ 10,00")
+        
+        guard let centsFromString = amountString.amountCentsFormat else {
+            XCTFail("Couldn't get cents amount")
+            return
+        }
+        XCTAssertEqual(centsFromString, cents)
+    }
+    
+    func testGetDate() {
+        let dateString = "06/11/1994 22:00:00"
+        let expectedResult = Date(timeIntervalSince1970: 784166400)
+        let date = dateString.getDate(withInputFormat: "dd/MM/yyyy HH:mm:ss")
+        XCTAssertEqual(expectedResult, date)
+    }
 }
