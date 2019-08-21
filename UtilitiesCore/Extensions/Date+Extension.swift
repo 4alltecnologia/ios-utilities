@@ -37,10 +37,10 @@ public extension Date {
     ///   - format: Date format.
     ///   - timezone: TimeZone for the date. If none is passed, the device's locale is used.
     /// - Returns: Date's String.
-    func getString(withFormat format: String, andTimezone timezone: TimeZone? = nil) -> String {
+    func getString(withFormat format: String, andTimezoneAbbreviation abbreviation: String? = nil) -> String {
         let dateFormatter = DateFormatter()
-        if let zone = timezone {
-            dateFormatter.timeZone = zone
+        if let abbreviation = abbreviation {
+            dateFormatter.timeZone = TimeZone(abbreviation: abbreviation)
         }
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)
