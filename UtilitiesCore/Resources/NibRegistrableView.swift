@@ -14,8 +14,8 @@ public protocol NibRegistrableView: UIView {
 }
 
 public extension NibRegistrableView {
-    static var nibName: String { return  Self.className }
-    static var reuseId: String { return  Self.className }
+    static var nibName: String { return Self.className }
+    static var reuseId: String { return Self.className }
     static var nib: UINib { return UINib(nibName: nibName, bundle: Bundle(for: self)) }
     
     static func instantiateFromNib() -> Self? {
