@@ -6,16 +6,11 @@
 //  Copyright © 2019 4all. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public extension UIView {
-    
     static var className: String {
-        let str = String(describing: type(of: self))
-        guard str.hasSuffix(".Type") else {
-            return str
-        }
-        return String(str[..<str.index(str.endIndex, offsetBy: -5)])
+        return String(describing: self)
     }
     
     func removeSubviewOf<T: UIView>(type: T.Type, animationDuration: TimeInterval? = nil) {
