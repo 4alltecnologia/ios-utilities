@@ -10,6 +10,7 @@ import XCTest
 @testable import UtilitiesCore
 
 class TestView: UIView { }
+class TestNib: UIView, NibInstantiatable { }
 
 class UIViewTests: XCTestCase {
 
@@ -24,5 +25,10 @@ class UIViewTests: XCTestCase {
         
         contentView.removeSubviewOf(type: TestView.self)
         XCTAssertFalse(contentView.subviews.contains { $0 is TestView })
+    }
+    
+    func testClassName() {
+        let className = TestNib.instantiateFromNib(bundle: Bundle(for: TestNib.self))
+        XCTAssertNotNil(className)
     }
 }
