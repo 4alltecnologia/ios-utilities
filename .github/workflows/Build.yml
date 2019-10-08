@@ -1,7 +1,7 @@
 on:
   push:
     branches:    
-      - develop
+      - raphaelbraun-patch-1
 name: Build
 jobs:
   test:
