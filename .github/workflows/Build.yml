@@ -1,7 +1,4 @@
-on:
-  push:
-    branches:    
-      - raphaelbraun-patch-1
+on: pull_request
 name: Build
 jobs:
   build:
