@@ -1,0 +1,36 @@
+on: pull_request
+name: Build
+jobs:
+  build:
+    name: Build
+    runs-on: macOS-latest
+    strategy:
+        matrix:
+          destination: ['platform=iOS Simulator,OS=12.4,name=iPhone X']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Build
+        run: |
+          xcodebuild clean build -project UtilitiesCore.xcodeproj -scheme UtilitiesCore -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+        env: 
+         destination: ${{ matrix.destination }}
+  test:
+    name: Test
+    runs-on: macOS-latest
+    strategy:
+        matrix:
+          destination: ['platform=iOS Simulator,OS=12.4,name=iPhone X']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Build
+        run: |
+          xcodebuild \
+          -project UtilitiesCore.xcodeproj \
+          -scheme UtilitiesCore \
+          -sdk iphonesimulator \
+          -destination "${destination}" \
+          test
+        env: 
+         destination: ${{ matrix.destination }}
